@@ -1,5 +1,7 @@
 cc_library_headers {
     name: "libspf-headers",
+    vendor: true,
+
     cflags: ["-D__H2XML__"],
 
     export_include_dirs: [
@@ -9,6 +11,4 @@ cc_library_headers {
         "api/modules",
         "api/vcpm",
     ],
-
-    proprietary: true,
 }
