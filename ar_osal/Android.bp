@@ -32,6 +32,7 @@ cc_library_shared {
         "src/linux/ar_osal_timer.c",
         "src/linux/qcom/ar_osal_servreg.c",
         "src/linux/qcom/ar_osal_shmem_db.c",
+        "src/linux/qcom/dyn_pd/ar_osal_dyn_pd.c",
     ],
 
     include_dirs: [
